@@ -8,7 +8,6 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/mholt/archives"
 	"github.com/winezer0/dezip"
 )
 
@@ -44,7 +43,7 @@ func processDownloadedFile(ctx context.Context, sourcePath, destination string, 
 
 	processed, err := dezip.Unpack(ctx, sourcePath, stagedOutput, options)
 	if err != nil {
-		if mode == ModeAuto && expectedFile == "" && !hasKnownArchiveExtension(sourcePath) && errors.Is(err, archives.NoMatch) && ctx.Err() == nil {
+		if mode == ModeAuto && expectedFile == "" && !hasKnownArchiveExtension(sourcePath) && errors.Is(err, dezip.ErrNoMatch) && ctx.Err() == nil {
 			return dezip.Result{}, "", true, nil
 		}
 		return unpublishedResult(processed), "", false, err

@@ -235,6 +235,9 @@ func TestRunDownloadsAndUnpacksArchive(t *testing.T) {
 }
 
 func TestRunUnpacksTarGzipArchive(t *testing.T) {
+	if !fullFormatsEnabled {
+		t.Skip("TAR support requires the dezip_full build tag")
+	}
 	server := serveBytes(testTarGzip(t, map[string]string{"root/bin/plugin": "binary"}))
 	defer server.Close()
 
@@ -254,6 +257,9 @@ func TestRunUnpacksTarGzipArchive(t *testing.T) {
 }
 
 func TestRunUnpacksGzipStreamAndReportsMainFile(t *testing.T) {
+	if !fullFormatsEnabled {
+		t.Skip("GZIP support requires the dezip_full build tag")
+	}
 	server := serveBytes(testGzip(t, []byte("binary")))
 	defer server.Close()
 

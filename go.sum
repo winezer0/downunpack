@@ -130,8 +130,8 @@ github.com/stretchr/testify v1.10.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf
 github.com/ulikunitz/xz v0.5.8/go.mod h1:nbz6k7qbPmH4IRqmfOplQw/tblSgqTqBwxkY0oWt/14=
 github.com/ulikunitz/xz v0.5.15 h1:9DNdB5s+SgV3bQ2ApL10xRc35ck0DuIX/isZvIk+ubY=
 github.com/ulikunitz/xz v0.5.15/go.mod h1:nbz6k7qbPmH4IRqmfOplQw/tblSgqTqBwxkY0oWt/14=
-github.com/winezer0/dezip v0.0.1 h1:b9JSaUJgypNTtAvrcpAK7ryMNK0pelj8BaT4zYcTJwo=
-github.com/winezer0/dezip v0.0.1/go.mod h1:FUPaa9AV03ZfnoxNGflktOUTIkxhNiu1F9PbKbrrf6k=
+github.com/winezer0/dezip v0.0.2 h1:FfD7c+YThSvQt6L35iQKQApGzVKZUicI3tuQTIekKg4=
+github.com/winezer0/dezip v0.0.2/go.mod h1:FUPaa9AV03ZfnoxNGflktOUTIkxhNiu1F9PbKbrrf6k=
 github.com/winezer0/downutils v0.1.3 h1:sPtkyipwXYOHX9esD5AByT8xE3eKED1M15gFExRxN3c=
 github.com/winezer0/downutils v0.1.3/go.mod h1:iB9cSfbO6s7635Evnwu9q3xz+526X1iWKREvW4RN7n0=
 github.com/winezer0/slogs v0.1.2 h1:Y8zaA1nHQu1DDgWYJjPYwugw4dm9Io8pKEnfi48AJlc=

@@ -3,8 +3,7 @@ module github.com/winezer0/downunpack
 go 1.25.5
 
 require (
-	github.com/mholt/archives v0.1.5
-	github.com/winezer0/dezip v0.0.1
+	github.com/winezer0/dezip v0.0.2
 	github.com/winezer0/downutils v0.1.3
 )
 
@@ -18,6 +17,7 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
+	github.com/mholt/archives v0.1.5 // indirect
 	github.com/mikelolasagasti/xz v1.0.1 // indirect
 	github.com/minio/minlz v1.0.1 // indirect
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
